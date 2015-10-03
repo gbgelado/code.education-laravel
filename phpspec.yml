@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: ProjetoGabge
+        psr4_prefix: ProjetoGabge
+        src_path: app
