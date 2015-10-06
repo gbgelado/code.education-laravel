@@ -50,7 +50,9 @@ class ClientController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
+        $task = \ProjetoGabge\Client::find($id);
+        $task->fill($request->all())->save();
     }
 
     /**
